@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8A87611FA2D2840044FAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87601FA2D2840044FAFB /* AppDelegate.swift */; };
+		5B8A87631FA2D2840044FAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87621FA2D2840044FAFB /* ViewController.swift */; };
+		5B8A87661FA2D2840044FAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A87641FA2D2840044FAFB /* Main.storyboard */; };
+		5B8A87691FA2D2840044FAFB /* HLLStarMark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87671FA2D2840044FAFB /* HLLStarMark.xcdatamodeld */; };
+		5B8A876B1FA2D2840044FAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A876A1FA2D2840044FAFB /* Assets.xcassets */; };
+		5B8A876E1FA2D2840044FAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A876C1FA2D2840044FAFB /* LaunchScreen.storyboard */; };
+		5B8A87791FA2D2840044FAFB /* HLLStarMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87781FA2D2840044FAFB /* HLLStarMarkTests.swift */; };
+		5B8A87841FA2D2840044FAFB /* HLLStarMarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87831FA2D2840044FAFB /* HLLStarMarkUITests.swift */; };
+		5BD2D6211FA95AA100588C5C /* HLLCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2D6201FA95AA100588C5C /* HLLCircleView.swift */; };
+		5BD2D6231FA95E4800588C5C /* HLLImageMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2D6221FA95E4800588C5C /* HLLImageMarkView.swift */; };
+		5BE956301FA2D338006D9B05 /* HLLMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9562F1FA2D338006D9B05 /* HLLMarkView.swift */; };
+		5BE956321FA2D34C006D9B05 /* HLLStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE956311FA2D34C006D9B05 /* HLLStarView.swift */; };
+		5BE956341FA322F9006D9B05 /* HLLMarkContaier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE956331FA322F9006D9B05 /* HLLMarkContaier.swift */; };
+		5BE956361FA3257A006D9B05 /* HLLMarkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE956351FA3257A006D9B05 /* HLLMarkDataSource.swift */; };
+		5BE9563A1FA326ED006D9B05 /* HLLMarkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE956391FA326ED006D9B05 /* HLLMarkStyle.swift */; };
+		5BE9563C1FA33025006D9B05 /* HLLMarkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9563B1FA33025006D9B05 /* HLLMarkDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B8A87751FA2D2840044FAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8A87551FA2D2840044FAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8A875C1FA2D2840044FAFB;
+			remoteInfo = HLLStarMark;
+		};
+		5B8A87801FA2D2840044FAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8A87551FA2D2840044FAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8A875C1FA2D2840044FAFB;
+			remoteInfo = HLLStarMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B8A875D1FA2D2840044FAFB /* HLLStarMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLLStarMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A87601FA2D2840044FAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B8A87621FA2D2840044FAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B8A87651FA2D2840044FAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B8A87681FA2D2840044FAFB /* HLLStarMark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HLLStarMark.xcdatamodel; sourceTree = "<group>"; };
+		5B8A876A1FA2D2840044FAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B8A876D1FA2D2840044FAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B8A876F1FA2D2840044FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8A87741FA2D2840044FAFB /* HLLStarMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLStarMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A87781FA2D2840044FAFB /* HLLStarMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLStarMarkTests.swift; sourceTree = "<group>"; };
+		5B8A877A1FA2D2840044FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8A877F1FA2D2840044FAFB /* HLLStarMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLStarMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A87831FA2D2840044FAFB /* HLLStarMarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLStarMarkUITests.swift; sourceTree = "<group>"; };
+		5B8A87851FA2D2840044FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD2D6201FA95AA100588C5C /* HLLCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLCircleView.swift; sourceTree = "<group>"; };
+		5BD2D6221FA95E4800588C5C /* HLLImageMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLImageMarkView.swift; sourceTree = "<group>"; };
+		5BE9562F1FA2D338006D9B05 /* HLLMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLMarkView.swift; sourceTree = "<group>"; };
+		5BE956311FA2D34C006D9B05 /* HLLStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLStarView.swift; sourceTree = "<group>"; };
+		5BE956331FA322F9006D9B05 /* HLLMarkContaier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLMarkContaier.swift; sourceTree = "<group>"; };
+		5BE956351FA3257A006D9B05 /* HLLMarkDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLMarkDataSource.swift; sourceTree = "<group>"; };
+		5BE956391FA326ED006D9B05 /* HLLMarkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLMarkStyle.swift; sourceTree = "<group>"; };
+		5BE9563B1FA33025006D9B05 /* HLLMarkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLMarkDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B8A875A1FA2D2840044FAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A87711FA2D2840044FAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A877C1FA2D2840044FAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8A87541FA2D2840044FAFB = {
+			isa = PBXGroup;
+			children = (
+				5B8A875F1FA2D2840044FAFB /* HLLStarMark */,
+				5B8A87771FA2D2840044FAFB /* HLLStarMarkTests */,
+				5B8A87821FA2D2840044FAFB /* HLLStarMarkUITests */,
+				5B8A875E1FA2D2840044FAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B8A875E1FA2D2840044FAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A875D1FA2D2840044FAFB /* HLLStarMark.app */,
+				5B8A87741FA2D2840044FAFB /* HLLStarMarkTests.xctest */,
+				5B8A877F1FA2D2840044FAFB /* HLLStarMarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B8A875F1FA2D2840044FAFB /* HLLStarMark */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A87601FA2D2840044FAFB /* AppDelegate.swift */,
+				5B8A87621FA2D2840044FAFB /* ViewController.swift */,
+				5BE956331FA322F9006D9B05 /* HLLMarkContaier.swift */,
+				5BE9562F1FA2D338006D9B05 /* HLLMarkView.swift */,
+				5BD2D6201FA95AA100588C5C /* HLLCircleView.swift */,
+				5BE956311FA2D34C006D9B05 /* HLLStarView.swift */,
+				5BD2D6221FA95E4800588C5C /* HLLImageMarkView.swift */,
+				5BE956351FA3257A006D9B05 /* HLLMarkDataSource.swift */,
+				5BE9563B1FA33025006D9B05 /* HLLMarkDelegate.swift */,
+				5BE956391FA326ED006D9B05 /* HLLMarkStyle.swift */,
+				5B8A87641FA2D2840044FAFB /* Main.storyboard */,
+				5B8A876A1FA2D2840044FAFB /* Assets.xcassets */,
+				5B8A876C1FA2D2840044FAFB /* LaunchScreen.storyboard */,
+				5B8A876F1FA2D2840044FAFB /* Info.plist */,
+				5B8A87671FA2D2840044FAFB /* HLLStarMark.xcdatamodeld */,
+			);
+			path = HLLStarMark;
+			sourceTree = "<group>";
+		};
+		5B8A87771FA2D2840044FAFB /* HLLStarMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A87781FA2D2840044FAFB /* HLLStarMarkTests.swift */,
+				5B8A877A1FA2D2840044FAFB /* Info.plist */,
+			);
+			path = HLLStarMarkTests;
+			sourceTree = "<group>";
+		};
+		5B8A87821FA2D2840044FAFB /* HLLStarMarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A87831FA2D2840044FAFB /* HLLStarMarkUITests.swift */,
+				5B8A87851FA2D2840044FAFB /* Info.plist */,
+			);
+			path = HLLStarMarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B8A875C1FA2D2840044FAFB /* HLLStarMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8A87881FA2D2840044FAFB /* Build configuration list for PBXNativeTarget "HLLStarMark" */;
+			buildPhases = (
+				5B8A87591FA2D2840044FAFB /* Sources */,
+				5B8A875A1FA2D2840044FAFB /* Frameworks */,
+				5B8A875B1FA2D2840044FAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLLStarMark;
+			productName = HLLStarMark;
+			productReference = 5B8A875D1FA2D2840044FAFB /* HLLStarMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B8A87731FA2D2840044FAFB /* HLLStarMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8A878B1FA2D2840044FAFB /* Build configuration list for PBXNativeTarget "HLLStarMarkTests" */;
+			buildPhases = (
+				5B8A87701FA2D2840044FAFB /* Sources */,
+				5B8A87711FA2D2840044FAFB /* Frameworks */,
+				5B8A87721FA2D2840044FAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8A87761FA2D2840044FAFB /* PBXTargetDependency */,
+			);
+			name = HLLStarMarkTests;
+			productName = HLLStarMarkTests;
+			productReference = 5B8A87741FA2D2840044FAFB /* HLLStarMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B8A877E1FA2D2840044FAFB /* HLLStarMarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8A878E1FA2D2840044FAFB /* Build configuration list for PBXNativeTarget "HLLStarMarkUITests" */;
+			buildPhases = (
+				5B8A877B1FA2D2840044FAFB /* Sources */,
+				5B8A877C1FA2D2840044FAFB /* Frameworks */,
+				5B8A877D1FA2D2840044FAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8A87811FA2D2840044FAFB /* PBXTargetDependency */,
+			);
+			name = HLLStarMarkUITests;
+			productName = HLLStarMarkUITests;
+			productReference = 5B8A877F1FA2D2840044FAFB /* HLLStarMarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8A87551FA2D2840044FAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.heron;
+				TargetAttributes = {
+					5B8A875C1FA2D2840044FAFB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5B8A87731FA2D2840044FAFB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B8A875C1FA2D2840044FAFB;
+					};
+					5B8A877E1FA2D2840044FAFB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B8A875C1FA2D2840044FAFB;
+					};
+				};
+			};
+			buildConfigurationList = 5B8A87581FA2D2840044FAFB /* Build configuration list for PBXProject "HLLStarMark" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B8A87541FA2D2840044FAFB;
+			productRefGroup = 5B8A875E1FA2D2840044FAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8A875C1FA2D2840044FAFB /* HLLStarMark */,
+				5B8A87731FA2D2840044FAFB /* HLLStarMarkTests */,
+				5B8A877E1FA2D2840044FAFB /* HLLStarMarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8A875B1FA2D2840044FAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A876E1FA2D2840044FAFB /* LaunchScreen.storyboard in Resources */,
+				5B8A876B1FA2D2840044FAFB /* Assets.xcassets in Resources */,
+				5B8A87661FA2D2840044FAFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A87721FA2D2840044FAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A877D1FA2D2840044FAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B8A87591FA2D2840044FAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE956341FA322F9006D9B05 /* HLLMarkContaier.swift in Sources */,
+				5BD2D6231FA95E4800588C5C /* HLLImageMarkView.swift in Sources */,
+				5BD2D6211FA95AA100588C5C /* HLLCircleView.swift in Sources */,
+				5BE9563A1FA326ED006D9B05 /* HLLMarkStyle.swift in Sources */,
+				5B8A87631FA2D2840044FAFB /* ViewController.swift in Sources */,
+				5BE9563C1FA33025006D9B05 /* HLLMarkDelegate.swift in Sources */,
+				5B8A87611FA2D2840044FAFB /* AppDelegate.swift in Sources */,
+				5BE956301FA2D338006D9B05 /* HLLMarkView.swift in Sources */,
+				5BE956321FA2D34C006D9B05 /* HLLStarView.swift in Sources */,
+				5BE956361FA3257A006D9B05 /* HLLMarkDataSource.swift in Sources */,
+				5B8A87691FA2D2840044FAFB /* HLLStarMark.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A87701FA2D2840044FAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A87791FA2D2840044FAFB /* HLLStarMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A877B1FA2D2840044FAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A87841FA2D2840044FAFB /* HLLStarMarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B8A87761FA2D2840044FAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8A875C1FA2D2840044FAFB /* HLLStarMark */;
+			targetProxy = 5B8A87751FA2D2840044FAFB /* PBXContainerItemProxy */;
+		};
+		5B8A87811FA2D2840044FAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8A875C1FA2D2840044FAFB /* HLLStarMark */;
+			targetProxy = 5B8A87801FA2D2840044FAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B8A87641FA2D2840044FAFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8A87651FA2D2840044FAFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B8A876C1FA2D2840044FAFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8A876D1FA2D2840044FAFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B8A87861FA2D2840044FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B8A87871FA2D2840044FAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B8A87891FA2D2840044FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLStarMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLStarMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B8A878A1FA2D2840044FAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLStarMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLStarMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B8A878C1FA2D2840044FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLStarMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLStarMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLLStarMark.app/HLLStarMark";
+			};
+			name = Debug;
+		};
+		5B8A878D1FA2D2840044FAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLStarMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLStarMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLLStarMark.app/HLLStarMark";
+			};
+			name = Release;
+		};
+		5B8A878F1FA2D2840044FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLStarMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLStarMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLLStarMark;
+			};
+			name = Debug;
+		};
+		5B8A87901FA2D2840044FAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLStarMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLStarMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLLStarMark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B8A87581FA2D2840044FAFB /* Build configuration list for PBXProject "HLLStarMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A87861FA2D2840044FAFB /* Debug */,
+				5B8A87871FA2D2840044FAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8A87881FA2D2840044FAFB /* Build configuration list for PBXNativeTarget "HLLStarMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A87891FA2D2840044FAFB /* Debug */,
+				5B8A878A1FA2D2840044FAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8A878B1FA2D2840044FAFB /* Build configuration list for PBXNativeTarget "HLLStarMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A878C1FA2D2840044FAFB /* Debug */,
+				5B8A878D1FA2D2840044FAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8A878E1FA2D2840044FAFB /* Build configuration list for PBXNativeTarget "HLLStarMarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A878F1FA2D2840044FAFB /* Debug */,
+				5B8A87901FA2D2840044FAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B8A87671FA2D2840044FAFB /* HLLStarMark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B8A87681FA2D2840044FAFB /* HLLStarMark.xcdatamodel */,
+			);
+			currentVersion = 5B8A87681FA2D2840044FAFB /* HLLStarMark.xcdatamodel */;
+			path = HLLStarMark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B8A87551FA2D2840044FAFB /* Project object */;
+}
