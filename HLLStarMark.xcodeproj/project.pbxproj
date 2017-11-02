@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B6EE39F1FAAFEFE00569B8D /* HLLTestGit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6EE39E1FAAFEFE00569B8D /* HLLTestGit.swift */; };
 		5B8A87611FA2D2840044FAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87601FA2D2840044FAFB /* AppDelegate.swift */; };
 		5B8A87631FA2D2840044FAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A87621FA2D2840044FAFB /* ViewController.swift */; };
 		5B8A87661FA2D2840044FAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A87641FA2D2840044FAFB /* Main.storyboard */; };
@@ -44,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B6EE39E1FAAFEFE00569B8D /* HLLTestGit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLTestGit.swift; sourceTree = "<group>"; };
 		5B8A875D1FA2D2840044FAFB /* HLLStarMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLLStarMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8A87601FA2D2840044FAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B8A87621FA2D2840044FAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				5B8A87621FA2D2840044FAFB /* ViewController.swift */,
 				5BE956331FA322F9006D9B05 /* HLLMarkContaier.swift */,
 				5BE9562F1FA2D338006D9B05 /* HLLMarkView.swift */,
-				5B6EE39E1FAAFEFE00569B8D /* HLLTestGit.swift */,
 				5BD2D6201FA95AA100588C5C /* HLLCircleView.swift */,
 				5BE956311FA2D34C006D9B05 /* HLLStarView.swift */,
 				5BD2D6221FA95E4800588C5C /* HLLImageMarkView.swift */,
@@ -296,7 +293,6 @@
 				5B8A87631FA2D2840044FAFB /* ViewController.swift in Sources */,
 				5BE9563C1FA33025006D9B05 /* HLLMarkDelegate.swift in Sources */,
 				5B8A87611FA2D2840044FAFB /* AppDelegate.swift in Sources */,
-				5B6EE39F1FAAFEFE00569B8D /* HLLTestGit.swift in Sources */,
 				5BE956301FA2D338006D9B05 /* HLLMarkView.swift in Sources */,
 				5BE956321FA2D34C006D9B05 /* HLLStarView.swift in Sources */,
 				5BE956361FA3257A006D9B05 /* HLLMarkDataSource.swift in Sources */,
